@@ -14,6 +14,10 @@ This repository contains a Flask web application designed to predict diabetes us
 
 ## User Interface
 
+https://github.com/sherwinvishesh/Diabetes-Prediction/assets/60791187/e0fc12df-9042-46da-b793-425cff62c46c
+
+
+
 
 ## Analysis Summary
 
