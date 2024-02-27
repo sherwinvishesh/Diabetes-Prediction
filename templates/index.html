@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Prediction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Diabetes Prediction Form</h2>
+    <form action="/predict" method="post">
+        Pregnancies: <input type="text" name="pregnancies"><br>
+        Glucose: <input type="text" name="glucose"><br>
+        Blood Pressure: <input type="text" name="bloodpressure"><br>
+        Skin Thickness: <input type="text" name="skinthickness"><br>
+        Insulin: <input type="text" name="insulin"><br>
+        BMI: <input type="text" name="bmi"><br>
+        Diabetes Pedigree Function: <input type="text" name="diabetespedigreefunction"><br>
+        Age: <input type="text" name="age"><br>
+        <div class="button-container">
+            <button type="submit">Predict</button>
+        </div>
+        
+    </form>
+    <!-- Display prediction result -->
+    {% if prediction_text %}
+        <h3>{{ prediction_text }}</h3>
+    {% endif %}
+
+    <footer>
+        <p class="made-with-love">Made with ❤️ by Sherwin</p>
+    </footer>
+
+    
+</body>
+</html>
