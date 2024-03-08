@@ -126,7 +126,7 @@ If you encounter any issues or have any questions, please submit an issue on the
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [Apache-2.0 license](LICENSE).
 
 ## Acknowledgments
 
